@@ -1,0 +1,6 @@
+aux_step_detection.c
+setup.py
+db_marche.egg-info/PKG-INFO
+db_marche.egg-info/SOURCES.txt
+db_marche.egg-info/dependency_links.txt
+db_marche.egg-info/top_level.txt

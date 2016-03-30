@@ -1,0 +1,13 @@
+{%- block content %}
+<h1>List of patients</h1>
+<table>
+
+{%- for text, url in urls.items() %}
+
+    <tr>
+        <td> {{         plot=figure()
+                        plot.line(np.arange(len(paso)),paso)}} </td>
+    </tr>
+{%- endfor %}
+</table>
+{%- endblock content %}

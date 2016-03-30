@@ -1,0 +1,12 @@
+{%- block content %}
+<h1>List of patients</h1>
+<table>
+
+{%- for text, url in urls.items() %}
+
+    <tr>
+        <td> <a href="{{ url }}" target="_blank">{{ text }}</a> </td>
+    </tr>
+{%- endfor %}
+</table>
+{%- endblock content %}
